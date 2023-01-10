@@ -24,8 +24,8 @@ I would like UW to offer more is sun. </p>
 
 ### Fun Facts 😹
 - I live in Seattle :joy:
-- I used to live in Sammamish :joy:
-- I used to live in California :joy:
+- I used to live in Sammamish 
+- I used to live in California 
 - My favorite restaurant in U-district is probably Korean Tofu House.
 
 ### Professional Interests 🕹️:
