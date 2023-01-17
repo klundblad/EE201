@@ -22,6 +22,7 @@ void setup() {
 }
 
 // Because the LEDs are in reverse-bias, the output pin needs to be set to LOW for the LED to turn on and HIGH for the LED to turn off
+// Connected power to the 5V and set the LEDS to their inverted state
 void loop() {
   // put your main code here, to run repeatedly:
   // 0: a b c d e f
