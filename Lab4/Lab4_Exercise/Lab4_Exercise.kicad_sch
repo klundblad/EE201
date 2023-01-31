@@ -548,8 +548,8 @@
   (symbol (lib_id "Connector:Conn_01x02_Male") (at 97.79 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a97d9593-88f3-490c-93d3-a1f528046ef8)
-    (property "Reference" "J?" (id 0) (at 98.425 68.58 0))
-    (property "Value" "" (id 1) (at 98.425 71.12 0))
+    (property "Reference" "J1" (id 0) (at 98.425 68.58 0))
+    (property "Value" "Conn_01x02_Male" (id 1) (at 98.425 71.12 0))
     (property "Footprint" "" (id 2) (at 97.79 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -563,10 +563,10 @@
   (symbol (lib_id "power:GND") (at 103.505 80.645 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid db00ed9d-5cbd-42e1-a367-f32e41a8348a)
-    (property "Reference" "#PWR?" (id 0) (at 103.505 86.995 0)
+    (property "Reference" "#PWR02" (id 0) (at 103.505 86.995 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "" (id 1) (at 103.505 85.09 0))
+    (property "Value" "GND" (id 1) (at 103.505 85.09 0))
     (property "Footprint" "" (id 2) (at 103.505 80.645 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -595,10 +595,10 @@
   (symbol (lib_id "power:+9V") (at 102.87 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ff3c247f-58c6-479d-ba30-61d36386d3d2)
-    (property "Reference" "#PWR?" (id 0) (at 102.87 67.31 0)
+    (property "Reference" "#PWR01" (id 0) (at 102.87 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "" (id 1) (at 102.87 58.42 0))
+    (property "Value" "+9V" (id 1) (at 102.87 58.42 0))
     (property "Footprint" "" (id 2) (at 102.87 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -613,11 +613,11 @@
   )
 
   (symbol_instances
-    (path "/db00ed9d-5cbd-42e1-a367-f32e41a8348a"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/ff3c247f-58c6-479d-ba30-61d36386d3d2"
-      (reference "#PWR?") (unit 1) (value "+9V") (footprint "")
+      (reference "#PWR01") (unit 1) (value "+9V") (footprint "")
+    )
+    (path "/db00ed9d-5cbd-42e1-a367-f32e41a8348a"
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
     )
     (path "/8353e4b8-275c-410b-9cd5-0364950e6b19"
       (reference "C1") (unit 1) (value "4.7u") (footprint "")
@@ -626,7 +626,7 @@
       (reference "D1") (unit 1) (value "LED") (footprint "")
     )
     (path "/a97d9593-88f3-490c-93d3-a1f528046ef8"
-      (reference "J?") (unit 1) (value "Conn_01x02_Male") (footprint "")
+      (reference "J1") (unit 1) (value "Conn_01x02_Male") (footprint "")
     )
     (path "/a19b8e83-b1cc-49b8-b2c0-c5f45449f195"
       (reference "R1") (unit 1) (value "2.2k") (footprint "")
